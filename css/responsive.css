@@ -1,0 +1,558 @@
+@media (max-width: 1199.98px) {
+/* header begin */
+.header {
+    height: 760px;
+}
+header {
+    padding-top: 50px;
+}
+.bto {
+    padding-top: 50px;
+}
+.bto__circle {
+    right: 0;
+    bottom: 160px;
+    width: 390px;
+    height: 390px;
+    background-size: 100%;
+    opacity: 0.8;
+}
+.bto__image {
+    right: 40px;
+    width: 280px;
+    height: 610px;
+    background-size: 100%;
+}
+/* header end */
+
+/* banners begin */
+.banner {
+    margin-top: 60px;
+    padding-top: 60px;
+}
+.cd_image > img {
+    width: 100%;
+}
+.cd_items {
+    display: none;
+}
+.banner_content {
+    padding: 240px 0 0 0;
+    margin-right: 0;
+}
+.clothing_details {
+    width: auto;
+    right: 50px;
+}
+.banner_products {
+    margin: -20px 0;
+}
+.costumes .banner_header {
+    margin-bottom: 140px;
+}
+.costumes .banner_content {
+    padding: 250px 0 0 0;
+}
+.costumes .clothing_details {
+    width: auto;
+}
+.shirts .clothing_details,
+.jersey .clothing_details {
+    width: 400px;
+}
+/* banners end */
+
+/* product card begin */
+.product_block {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/* product card end */
+
+/* advantages begin */
+.advantages {
+    margin-top: 60px;
+    padding-top: 60px;
+}
+.advantages_header {
+    margin-bottom: 40px;
+}
+/* advantages end */
+
+/* subscription begin */
+.subscription {
+    margin-top: 60px;
+    padding-top: 60px;
+}
+.subscription_form {
+    margin-right: 30px;
+}
+/* subscription end */
+}
+
+
+
+@media (max-width: 991.98px) {
+/* header begin */
+.header {
+    overflow: hidden;
+    height: 830px;
+}
+.bto {
+    padding-top: 110px;
+}
+.bto__logo img {
+    max-width: 220px;
+}
+.bto h1 {
+    max-width: 540px;
+    margin-bottom: 15px;
+}
+.bto__bg {
+    right: -80px;
+}
+.bto__circle {
+    bottom: 200px;
+}
+.bto__image {
+    height: 660px;
+    background: url('../images/backtoffice_bg_transparent.png') no-repeat top;
+}
+.categories {
+    max-width: 450px;
+}
+/* header end */
+
+/* banners begin */
+.banner_header {
+    height: 560px;
+}
+.banner_content {
+    padding: 150px 0 0 0;
+}
+.banner h2 {
+    margin-bottom: 20px;
+}
+.banner_information {
+    position: relative;
+    z-index: 2;
+}
+.banner_information > p {
+    max-width: 350px;
+}
+.clothing_details {
+    right: 0;
+    width: 300px !important;
+    z-index: 1;
+}
+.banner_products {
+    z-index: 2;
+}
+/* banners end */
+
+/* advantages begin */
+.advantages_header {
+    margin-bottom: 60px;
+}
+.advantages_content {
+    margin: -30px 0;
+}
+.advantage_block {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+/* advantages end */
+
+/* subscription begin */
+.subscription > .container {
+    max-width: unset;
+    padding: 0;
+}
+.subscription_content {
+    height: 390px;
+}
+.subscription_bg {
+    left: 20px;
+}
+.subscription_bg > img {
+    height: 412px;
+}
+.subscription_form {
+    margin-right: 15px;
+}
+/* subscription end */
+
+/* footer begin */
+footer {
+    margin-top: 0;
+    padding-top: 0;
+}
+.f_top {
+    height: 96px;
+}
+.f_bottom {
+    height: auto;
+    padding: 25px 0;
+}
+/* footer end */
+
+h1, h2 {
+    font-size: 56px;
+    letter-spacing: 0.56px;
+}
+h3 {
+    font-size: 44px;
+    letter-spacing: 0.44px;
+}
+h6 {
+    font-size: 16px;
+}
+}
+
+@media (max-width: 767.98px) {
+/* header begin */
+.header {
+    height: auto;
+    padding-bottom: 70px;
+}
+.header_bg {
+    background-repeat: repeat;
+}
+header {
+    padding-top: 25px;
+}
+.h_logo img {
+    max-width: 140px;
+}
+.h_phone > a {
+    font-size: 24px;
+}
+.bto {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 450px;
+}
+.bto__content {
+    z-index: 2;
+}
+.bto__logo img {
+    max-width: 210px;
+}
+.bto__bg {
+    top: 100px;
+    right: 0;
+}
+.bto__circle {
+    width: 345px;
+    height: 345px;
+    top: 30px;
+    bottom: unset;
+    left: 0;
+    margin: 0 auto;
+}
+.bto__image {
+    width: 100%;
+    height: 768px;
+    right: unset;
+    bottom: unset;
+}
+/* header end */
+
+/* banners begin */
+.banner_header {
+    height: auto !important;
+}
+.banner_content {
+    padding: 100px 0 0 0 !important;
+}
+.banner_information {
+    text-align: center;
+}
+.banner_information > p {
+    max-width: 400px;
+    margin: 0 auto;
+}
+.clothing_details {
+    position: relative;
+    top: unset !important;
+    right: unset;
+    width: 310px !important;
+    margin: 60px auto 0;
+    padding-bottom: 150px;
+}
+
+.banner_products {
+    top: -90px;
+}
+/* banners end */
+
+
+/* costumes begin */
+.costumes .banner_header {
+    height: auto !important;
+    margin-bottom: 0;
+}
+.costumes .banner_information {
+    top: unset;
+}
+.banner_mini_products {
+    position: relative;
+    top: 200px;
+    padding-top: 450px;
+}
+.costumes .clothing_details {
+    position: absolute;
+    top: 300px !important;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.costumes .banner_products {
+    top: 240px;
+    padding-bottom: 240px;
+}
+/* costumes end */
+
+/* advantages begin */
+.advantages {
+    margin-top: 50px;
+    padding-top: 50px;
+}
+.advantages_header {
+    margin-bottom: 40px;
+}
+.advantages_content {
+    margin: -20px 0;
+}
+.advantage_block {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.advantage_image {
+    justify-content: flex-start;
+    margin-bottom: 10px;
+}
+.advantage_image > img {
+    width: 48px;
+    height: 48px;
+}
+.advantage_title {
+    text-align: left;
+}
+.advantage_text {
+    font-size: 15px;
+    text-align: left;
+}
+/* advantages end */
+
+/* subscription begin */
+.subscription {
+    margin-top: 50px;
+    padding-top: 50px;
+}
+.subscription_content {
+    height: 410px;
+    justify-content: center;
+}
+.subscription_bg {
+    display: none;
+}
+.subscription_form {
+    margin-right: 0;
+    text-align: center;
+}
+.subscription_form h3 {
+    margin-bottom: 25px;
+}
+.subscription_captcha {
+    margin: 0 auto;
+}
+/* subscription end */
+
+/* footer begin */
+.company_contacts {
+    max-width: 320px;
+}
+.f_tsunami {
+    justify-content: flex-start;
+    margin-top: 15px;
+}
+.tsunami_text {
+    text-align: left;
+}
+/* footer end */
+
+h1, h2 {
+    font-size: 48px;
+    letter-spacing: 0.46px;
+}
+h3 {
+    font-size: 40px;
+    letter-spacing: 0.4px;
+}
+h4 {
+  font-size: 21px;
+}
+h6 {
+    font-size: 15px;
+}
+}
+
+@media (max-width: 575.98px) {
+/* header begin */
+.h_logo img {
+    max-width: 115px;
+}
+.h_phone > span {
+    display: none;
+}
+.bto {
+    padding-top: 400px;
+}
+.bto__logo img {
+    max-width: 140px;
+}
+.bto__circle {
+    width: 290px;
+    height: 290px;
+}
+.bto__image {
+    width: 200px;
+    height: 610px;
+    right: 0;
+    left: 0;
+    background-size: contain;
+    margin: 0 auto;
+}
+.bto p {
+    margin-bottom: 40px;
+}
+.category_wrap {
+    width: 290px;
+    justify-content: center;
+}
+.category_image {
+    left: 10px;
+}
+.category_name {
+    padding-left: 0;
+}
+/* header end */
+
+/* banner begin */
+.banner {
+    margin-top: 45px;
+    padding-top: 0;
+}
+.banner_content {
+    padding: 90px 0 0 0;
+}
+.clothing_details {
+    width: 280px !important;
+    margin: 30px auto 0;
+    padding-bottom: 100px;
+}
+.banner_products {
+    top: -60px;
+    max-width: 425px;
+    margin: -15px auto;
+}
+.banner_mini_products {
+    max-width: 425px;
+    padding: 0 15px;
+    margin: 0 auto;
+    top: 810px;
+}
+.costumes .banner_products {
+    top: 830px;
+    padding-bottom: 830px;
+}
+.banner_mini_products .product_block {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+/* banner end */
+
+/* product card begin */
+.product_block {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.product_discount,
+.product_new,
+.product_big {
+    font-size: 18px;
+}
+/* product card end */
+
+/* advantages begin */
+.advantages {
+    margin-top: 45px;
+    padding-top: 45px;
+}
+.advantages_content {
+    margin: -12px 0;
+}
+.advantage_block {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.advantage_image {
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.advantage_title,
+.advantage_text {
+    text-align: center;
+}
+/* advantages end */
+
+/* subscription begin */
+.subscription {
+    margin-top: 45px;
+    padding-top: 45px;
+}
+.subscription_content {
+    height: 505px;
+}
+.subscription_form form {
+    justify-content: center;
+    flex-wrap: wrap;
+}
+form > input {
+    width: 290px;
+    margin-right: 0;
+    margin-bottom: 10px;
+}
+form > button[type="submit"] {
+    width: 290px;
+}
+/* subscription end */
+
+/* footer begin */
+.f_top {
+    height: auto;
+    padding: 35px 0;
+}
+.f_social {
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+.company_name {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.company_contacts {
+    font-size: 14px;
+}
+/* footer end */
+
+h1, h2 {
+    font-size: 36px;
+    letter-spacing: 0.36px;
+}
+p {
+    font-size: 15px;
+}
+}

@@ -1,0 +1,686 @@
+/* First screen */
+.header {
+    position: relative;
+    height: 900px;
+    background-color: #2D2D31;
+}
+.header_bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: url('../images/paper_texture.png') no-repeat center;
+    opacity: 0.2;
+}
+header {
+    height: 100px;
+    padding-top: 40px;
+}
+.h_phone {
+    display: grid;
+    justify-items: end;
+}
+.h_phone > a {
+    font-family: 'BebasNeue';
+    font-size: 30px;
+    font-weight: bold;
+    line-height: normal;
+    color: #f7f7f7;
+}
+.h_phone > span {
+    font-size: 13px;
+    font-weight: normal;
+    line-height: normal;
+    color: #d9d9d9;   
+}
+.bto {
+    padding-top: 140px;
+}
+.bto__logo {
+    margin-bottom: 35px;
+}
+.bto h1 {
+    position: relative;
+    max-width: 640px;
+    width: 100%;
+    margin-bottom: 20px;
+    z-index: 2;
+}
+.bto p {
+    max-width: 340px;
+    width: 100%; 
+    margin-bottom: 55px;
+    color: #EBEBEB;
+}
+.bto__bg {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.bto__circle {
+    position: absolute;
+    right: 40px;
+    bottom: 70px;
+    width: 625px;
+    height: 625px;
+    background: url('../images/backtoffice_circle.svg') no-repeat center;
+}
+.bto__image {
+    position: absolute;
+    right: 100px;
+    bottom: 0;
+    width: 450px;
+    height: 790px;
+    background: url('../images/backtoffice_bg.png') no-repeat top;
+}
+.categories {
+    position: relative;
+    max-width: 590px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: -10px -8px;
+    z-index: 2;
+}
+.category_block {
+    margin: 10px 8px;
+}
+.category_wrap {
+    position: relative;
+    width: 180px;
+    height: 54px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #3D3D42;
+    font-size: 17px;
+    font-weight: normal;
+    line-height: 1.35;
+    color: #f7f7f7;
+}
+.category_wrap > a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.category_image {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.category_name {
+    padding-left: 64px;
+}
+
+/* Banner */
+.banner {
+    margin-top: 75px;
+    padding-top: 75px;
+}
+.banner_header {
+    position: relative;
+    height: 803px;
+    background-color: #F7F7F7;
+}
+.banner_bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: url('../images/paper_texture.png') no-repeat center;
+    opacity: 0.4;
+    transform: rotate(-180deg);
+}
+.banner_content {
+    position: relative;
+    padding: 210px 0 0 120px;
+    margin-right: 120px;
+}
+.banner_information > p {
+    margin-bottom: 15px;
+}
+.banner_information > p:last-child {
+    margin-bottom: 0;
+}
+.banner_mini_products {
+    margin-top: 90px;
+}
+.banner h2 {
+    margin-bottom: 45px;
+}
+.banner_products {
+    position: relative;
+    top: -30px;
+    margin: -25px 0;
+}
+
+/* Clothing details */
+.clothing_details {
+    position: absolute;
+    top: 50px;
+    right: 0;
+}
+.cd_image {
+    text-align: center;
+}
+.cd_items {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.cd_item {
+    width: 252px;
+    position: absolute;
+}
+.cd_item.active {
+    background-color: #f9f9fb;
+    padding: 16px;
+}
+.cd_item_point {
+    content: '';
+    position: absolute;
+    bottom: -26px;
+    left: 0;
+    width: 25px;
+    height: 25px;
+}
+.cd_item_point:hover {
+    cursor: pointer;
+}
+.cd_items.light .cd_item_point {
+    background: url('../images/clothing_details/ic_point_light.svg') no-repeat center;
+}
+.cd_items.dark .cd_item_point {
+    background: url('../images/clothing_details/ic_point_dark.svg') no-repeat center;
+}
+.cd_item_title {
+    display: none;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.1;
+    letter-spacing: 0.16px;
+    color: #22232d;
+}
+.cd_item_text {
+    display: none;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.1;
+    letter-spacing: 0.16px;
+    color: #4d4d4d;
+    margin-top: 5px;
+}
+.cd_item.active .cd_item_title,
+.cd_item.active .cd_item_text {
+    display: block;
+}
+
+/* Product card */
+.banner_mini_products .product_block {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.product_block {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.product_images {
+    position: relative;
+    margin-bottom: 15px;
+    overflow: hidden;
+    transition: .1s transform ease-in;
+}
+.product_images:hover {
+    transform: scale(1.05);
+}
+.product_images > img {
+    width: 100%;
+}
+.product_images > .slider {
+    display: flex;
+    overflow: hidden;
+}
+.product_images > .slider > img {
+    width: 100%;
+    opacity: 0;
+    display: none;
+}
+.product_images > .slider > img.active {
+    opacity: 1;
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.slider_nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+.slider_nav .slider_nav_item {
+    position: relative;
+    height: 100%;
+}
+.slider_nav .slider_nav_item:before {
+    content: '';
+    position: absolute;
+    bottom: 1px;
+    left: 1px;
+    width: calc(100% - 2px);
+    height: 2px;
+    border-radius: 2px;
+    background-color: #ebebeb;
+    transition: .2s background-color ease-in-out;
+}
+.slider_nav .slider_nav_item.active:before {
+    background-color: #323d78;
+}
+
+
+
+
+
+.product_discount,
+.product_new,
+.product_big {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 24px;
+    font-family: 'BebasNeue', monospace;
+    font-size: 20px;
+    line-height: normal;
+    color: #fff;
+    text-align: right;
+    padding: 0 5px 0 20px;
+}
+.product_discount {
+    position: absolute;
+    top: 15px;
+    left: 0;
+    background-color: #323D78;
+    font-weight: bold;
+    color: #fff;
+    transition: .2s left ease-in-out;
+}
+.product_stickers {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    display: inline-grid;
+    transition: .2s left ease-in-out;
+}
+.product_new {
+    background-color: #22232D;
+    font-weight: normal;
+    color: #fff;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+.product_big {
+    background-color: #fff;
+    font-weight: normal;
+    color: #333;
+    text-transform: uppercase;
+}
+.product_images:hover .product_discount,
+.product_images:hover .product_stickers {
+    left: -100%;
+}
+.product_name {
+    font-size: 15px;
+    font-weight: bold;
+    line-height: normal;
+    color: #54555f;
+}
+.product_name > span {
+    font-weight: normal;
+    color: #797a86;
+}
+.product_price {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.product_price_old {
+    font-family: 'BebasNeue', monospace;
+    font-size: 24px;
+    font-weight: normal;
+    line-height: normal;
+    color: #656670;
+    margin-right: 5px;
+}
+.product_price_current {
+    font-family: 'BebasNeue', monospace;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1;
+    color: #22232d;
+}
+.product_price_current > span {
+    font-size: 20px;
+    font-weight: normal;
+    line-height: normal;
+    color: #454654;
+}
+.product_more {
+    display: none;
+    width: 160px;
+    height: 44px;
+    justify-content: center;
+    align-items: center;
+    background-color: #323d78;
+    font-size: 16px;
+    color: #fff;
+    margin-top: 5px;
+}
+
+/* costumes */
+.costumes {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+.costumes .banner_header {
+    height: auto;
+    margin-bottom: 150px;
+}
+.costumes .banner_content {
+    padding: 180px 0 0 0;
+    margin-right: 0;
+}
+.costumes .banner_information {
+    position: relative;
+    top: 100px;
+}
+.costumes p {
+    max-width: 450px;
+    width: 100%;
+}
+.costumes .clothing_details {
+    top: 70px;
+    width: 690px;
+}
+.costumes .cd_item[item="1"] {
+    width: auto;
+    top: 50px;
+    left: 0px;
+}
+.costumes .cd_item[item="2"] {
+    top: 140px;
+    left: 0;
+}
+.costumes .cd_item[item="3"] {
+    width: auto;
+    top: 250px;
+    left: 0;
+}
+.costumes .cd_item[item="4"] {
+    top: 340px;
+    left: 0;
+}
+.costumes .cd_item[item="5"] {
+    top: -20px;
+    right: 50px;
+}
+.costumes .cd_item[item="6"] {
+    top: 280px;
+    right: -10px;
+}
+.costumes .banner_products {
+    top: 0;
+}
+
+/* Blazers */
+.blazers p {
+    max-width: 395px;
+    width: 100%;
+}
+.blazers .cd_item[item="1"] {
+    top: 90px;
+    left: 220px;
+}
+.blazers .cd_item[item="2"] {
+    top: 110px;
+    right: -50px;
+}
+.blazers .cd_item[item="3"] {
+    bottom: 170px;
+    left: -70px;
+}
+.blazers .cd_item[item="4"] {
+    bottom: 220px;
+    left: 240px;
+}
+.blazers .cd_item[item="5"] {
+    bottom: 190px;
+    right: -70px;
+}
+
+/* Pants */
+.pants p {
+    max-width: 450px;
+    width: 100%;
+}
+.pants .clothing_details {
+    top: 40px;
+}
+
+/* Shirts */
+.shirts p {
+    max-width: 370px;
+    width: 100%;
+}
+.shirts .cd_item[item="1"] {
+    top: 230px;
+    left: 110px;
+}
+.shirts .cd_item[item="2"] {
+    top: 270px;
+    right: 0;
+}
+.shirts .cd_item[item="3"] {
+    left: -200px;
+    bottom: 140px;
+}
+.shirts .cd_item[item="4"] {
+    bottom: 30px;
+    left: 190px;
+}
+.shirts .cd_item[item="5"] {
+    bottom: 130px;
+    right: -90px;
+}
+
+/* Jersey */
+.jersey p {
+    max-width: 370px;
+    width: 100%;
+}
+.jersey .cd_item[item="1"] {
+    top: 20px;
+    left: 260px;
+}
+.jersey .cd_item[item="2"] {
+    bottom: 180px;
+    left: 100px;
+}
+.jersey .cd_item[item="3"] {
+    right: 0;
+    bottom: 340px;
+}
+
+/* Accessories */
+.accessories p {
+    max-width: 400px;
+    width: 100%;
+}
+.accessories .clothing_details {
+    top: 0;
+}
+
+/* Advantages */
+.advantages {
+    margin-top: 75px;
+    padding-top: 75px;
+}
+.advantages_header {
+    margin-bottom: 50px;
+}
+.advantages_content {
+    margin: -35px 0;
+}
+.advantage_block {
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+.advantage_image {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.advantage_title {
+    max-width: 330px;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto 10px;
+}
+.advantage_text {
+    max-width: 290px;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* Subscription */
+.subscription {
+    margin-top: 90px;
+    padding-top: 90px;
+}
+.subscription_content {
+    position: relative;
+    height: 424px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background: #F7F7F7;
+    border-top: 16px solid #323D78;
+}
+.subscription_bg {
+    position: absolute;
+    left: 5%;
+    bottom: 0;
+}
+.subscription_form {
+    margin-right: 180px;
+}
+.subscription_form h3 {
+    margin-bottom: 15px;
+}
+.subscription_form p {
+    margin-bottom: 25px;
+}
+.subscription_form form {
+    display: flex;
+    margin-bottom: 20px;
+}
+.subscription_captcha {
+    max-width: 340px;
+    width: 100%;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.35;
+    color: #333;
+}
+.subscription_captcha > a {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    margin-top: 90px;
+    padding-top: 90px;
+}
+.f_top {
+    height: 120px;
+    background-color: #22232D;
+}
+.f_social {
+    display: flex;
+    justify-content: flex-end;
+}
+.f_social > a {
+    width: 36px;
+    height: 36px;
+    margin-right: 18px;
+}
+.f_social > a[href*="instagram.com/"] {
+    background: url('../images/social/ic_instagram.svg') no-repeat center;
+}
+.f_social > a[href*="vk.com/"] {
+    background: url('../images/social/ic_vk.svg') no-repeat center;
+}
+.f_social > a[href*="facebook.com/"] {
+    background: url('../images/social/ic_facebook.svg') no-repeat center;
+}
+.f_social > a:last-child {
+    margin-right: 0;
+}
+.f_bottom {
+    height: 90px;
+    background-color: #1A1A1A;
+}
+.company_name {
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 1.4;
+    color: #d9d9d9;
+}
+.company_contacts {
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 1.4;
+    color: #999;
+}
+.f_tsunami {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.tsunami_text {
+    max-width: 120px;
+    width: 100%;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 1;
+    text-align: right;
+    color: #f7f7f7;
+    margin-right: 15px;
+}

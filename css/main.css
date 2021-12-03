@@ -1,0 +1,126 @@
+
+@font-face {
+  font-family: 'BebasNeue';
+  src: url('../fonts/BebasNeue-Regular.otf') format('opentype');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'BebasNeue';
+  src: url('../fonts/BebasNeue-Bold.otf') format('opentype');
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'ProximaNova';
+  src: url('../fonts/ProximaNova-Bold.woff') format('woff');
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'ProximaNova';
+  src: url('../fonts/ProximaNova-Regular.woff') format('woff');
+  font-weight: 400;
+}
+body {
+  font-family: 'ProximaNova';
+}
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 0;
+}
+h1 {
+  font-family: 'BebasNeue';
+  font-size: 82px;
+  font-weight: bold;
+  line-height: 1;
+  letter-spacing: 0.82px;
+  color: #fff;
+  text-transform: uppercase;
+}
+h2 {
+  font-family: 'BebasNeue';
+  font-size: 64px;
+  font-weight: bold;
+  line-height: 1.2;
+  letter-spacing: 0.64px;
+  color: #22232d;
+  text-transform: uppercase;
+}
+h3 {
+  font-family: 'BebasNeue';
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 1.2;
+  letter-spacing: 0.48px;
+  color: #22232d;
+  text-transform: uppercase;
+}
+h4 {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.35;
+  color: #1a1a1a;
+}
+h6 {
+  font-size: 17px;
+  font-weight: normal;
+  line-height: 1.35;
+  color: #4d4d4d;
+}
+p {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.35;
+  letter-spacing: normal;
+  color: #2d2d31;
+}
+*:focus {
+  outline: 0;
+}
+ul:not([class]) {
+  margin-bottom: 25px;
+  padding-left: 20px;
+}
+ul:not([class]) > li {
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 1.5;
+  margin-bottom: 5px;
+}
+ul:not([class]) > li:last-child {
+  margin-bottom: 0;
+}
+a {
+  color: #333;
+  transition: .2s color ease-in-out;
+}
+a:hover {
+  color: #323D78;
+  text-decoration: none !important;
+}
+
+/* Forms */
+form > input {
+  width: 240px;
+  height: 48px;
+  font-size: 17px;
+  font-weight: normal;
+  line-height: 1.35;
+  color: #1a1a1a;
+  background-color: transparent;
+  border: 1px solid #1A1A1A;
+  padding: 12px 15px;
+  margin-right: 12px;
+}
+form > button[type="submit"] {
+  height: 48px;
+  font-size: 17px;
+  font-weight: normal;
+  line-height: 1.35;
+  color: #fff;
+  background-color: #323D78;
+  border: 0;
+  padding: 12px 40px;
+  cursor: pointer;
+  transition: .2s background-color ease-in-out;
+}
+form > button[type="submit"]:hover {
+  background-color: #212b61;
+}
