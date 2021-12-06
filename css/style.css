@@ -123,7 +123,7 @@ header {
 /* Banner */
 .banner {
   margin-top: 75px;
-  padding-top: 75px;
+  padding-bottom: 75px;
 }
 .banner_header {
   position: relative;
