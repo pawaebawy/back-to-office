@@ -383,8 +383,7 @@ header {
   color: #454654;
 }
 .product_more {
-  display: none;
-  width: 160px;
+  width: 135px;
   height: 44px;
   justify-content: center;
   align-items: center;
@@ -392,6 +391,9 @@ header {
   font-size: 16px;
   color: #fff;
   margin-top: 5px;
+}
+.product_more-right {
+  margin-right: 15px;
 }
 
 /* costumes */
