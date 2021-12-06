@@ -391,9 +391,14 @@ header {
   font-size: 16px;
   color: #fff;
   margin-top: 5px;
+  transition: 0.2s;
 }
 .product_more-right {
   margin-right: 15px;
+}
+.product_more:hover {
+  background-color: #222640;
+  cursor: pointer;
 }
 
 /* costumes */
