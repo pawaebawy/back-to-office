@@ -96,12 +96,28 @@ if (sliders.length > 0) {
 // Lazy load
 const lazyImages = document.querySelectorAll('img[data-src]')
 const windowHeight = document.documentElement.clientHeight
+//
 
-const points = document.querySelectorAll('.cd_item_point')
-for (const point of points) {
-  point.addEventListener('click', (e) => {
-    e.target.parentNode.classList.toggle('active')
-  })
+
+let points = document.querySelectorAll('.cd_item'); // Возвращает список элементов
+let lastClicked = points[0]; // Первый элемент из списка (счет начинается с нуля)
+
+for( let i = 0; i < points.length; i++ ){
+  // Цикл берет и кругами выполняет код. На каждом круге, i является конкретным числом.
+  // Добавляется событие 'клик' на test[0], потом test[1], test[2]...
+  points[i].addEventListener('click', function(){
+    lastClicked.classList.remove('active');
+    this.classList.add('active');
+    // Убрали класс с предыдущего кликнутого элемента, добавили на текущий
+    
+    lastClicked = this; 
+    // Обновили значение переменной - теперь она ссылается на текущий элемент. 
+    // Чтобы на следующем клике, убрать класс уже с этого.
+  });
 }
 
+
+
+
 }
+
