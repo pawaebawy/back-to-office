@@ -104,6 +104,11 @@ header {
   font-weight: normal;
   line-height: 1.35;
   color: #f7f7f7;
+  transition: 0.2s;
+}
+.category_wrap:hover {
+  background-color: #fff;
+  color: #323d78;
 }
 .category_wrap > a {
   position: absolute;
@@ -171,6 +176,9 @@ header {
 }
 .cd_image {
   text-align: center;
+}
+.none {
+  display: none;
 }
 .cd_items {
   position: absolute;
